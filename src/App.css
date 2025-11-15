@@ -1,38 +1,372 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Noto+Kufi+Arabic:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #0F0612;
+  color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main{
+  height: 768px;
+  background: #67228B;
+  background: radial-gradient(circle, rgba(103, 34, 139, 1) 0%, rgba(59, 20, 79, 1) 15%, rgba(15, 6, 18, 1) 100%);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar-container{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 0 10px;
+}
+
+.Navbar-container h1{
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.menu{
+  width: 55%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  font-weight: bold;
+  transform: translateX(-73px);
 }
+
+.menu ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul li a:hover{
+  color: #FF0BEF;
+  transition: ease 0.5s;
+}
+
+button{
+  background: #3B144F;
+  background: linear-gradient(164deg, rgba(59, 20, 79, 1) 0%, rgba(130, 41, 174, 1) 100%);
+  color: white;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: solid 2px white;
+  cursor: pointer;
+}
+
+.Home{
+  display: flex;
+  margin-top: 20px;
+}
+
+.my-picture{
+  width: 60%;
+  display: flex;
+}
+
+.my-picture img{
+  width: 550px;
+}
+
+.Introduction{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.About-me{
+  width: 800px;
+  height: 70%;
+  color: white;
+}
+
+.About-me h3{
+  font-size: 40px;
+  margin: 0;
+}
+
+.About-me h2{
+  font-size: 60px;
+  margin: 0;
+}
+
+span{
+  color: #FF0BEF;
+}
+
+.Paragraph{
+  width: 500px;
+}
+
+p{
+  font-weight: light;
+  font-size: 20px;
+}
+
+.Social-Media{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-circle{
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-circle img{
+  width: 33px;
+  height: 33px;
+  margin: auto;
+}
+
+.icon-circle:hover{
+  background-color:#FF0BEF;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+
+.Experience{
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.Experience-container{
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.line-level {
+  flex-shrink: 0;
+}
+
+.Experience-jobs{
+  color: black;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #FF0BEF;
+  color: white;
+  height: fit-content;
+  margin: 32px 200px 0 0;
+  border-radius: 10px;
+}
+
+
+.job-info , .job-details , .job-tools{
+  padding: 0 15px;
+}
+
+.job-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  height: 73px;
+}
+
+.job-details{
+  height: 200px;
+}
+
+.job-history{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.job-history img{
+  width: 23px;
+  height: 23px;
+  padding-right: 5px;
+}
+
+.job-tools{
+  height: 125px;
+}
+
+.job-tools ul{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.job-tools ul li div{
+  width: 123px;
+  height: 43px;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #FF0BEF;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-cards-jobs{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.experience-cards-column {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  flex: 1;
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;
+}
+
+.project-intro{
+  text-align: center;
+  width: 1070px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.project-intro h2{
+  font-weight: lighter;
+}
+
+.project-container{
+  background: #67228B;
+  background: radial-gradient(circle, rgba(103, 34, 139, 1) 0%, rgba(59, 20, 79, 1) 15%, rgba(15, 6, 18, 1) 100%);
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.project-image{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-image .logo{
+    background-color: #06923e;
+    width: 430px;
+    height: 430px;
+    margin: 0 20px 10px 59px;
+}
+
+.project-image .logo h1{
+    font-size: 96px;
+    font-weight: 700;
+    padding: 132px 32px;
+}
+
+.project-image a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.project-image .logo:hover{
+  background: linear-gradient(164deg, rgba(59, 20, 79, 1) 0%, rgba(130, 41, 174, 1) 100%);
+  color: white;
+  transition: ease 0.5s;
+}
+
+
+.project-title span{
+  font-size: 50px;
+}
+
+.project-title h3{
+  margin: 38px 0 8px 0;
+}
+
+.project-title h1{
+  margin:0;
+}
+
+.project-title .underline{
+  border-bottom: 10px solid #FF0BEF;
+  width: 100px;
+}
+
+.project-feature ul{
+  line-height: 50px;
+}
+
+.Education{
+  display: flex;
+  flex-direction: column;
+}
+
+.education-intro {
+  padding-left: 10px;
+}
+
+.education-intro p{
+  font-weight: lighter;
+}
+
+.education-container{
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.education-info{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  font-size: 10px;
+}
+
+.education-card button{
+  width: 70%;
+}
+
+.education-card{
+  width: 500px;
+  height: 160px;
+  border: 2px solid #FF0BEF;
+}
+
+.certificate{
+  width: 800px;
+  height: 550px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+
+/* @media (max-width: 992px) {
+
+
+}
+
+
+@media (max-width: 600px) {
+
+} */
