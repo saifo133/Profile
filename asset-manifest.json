@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Profile/static/css/main.4ac8e37d.css",
+    "main.js": "/Profile/static/js/main.27cf716b.js",
+    "static/js/453.32d81922.chunk.js": "/Profile/static/js/453.32d81922.chunk.js",
+    "static/media/Training_Certificate.jpg": "/Profile/static/media/Training_Certificate.d4234158af8692b798be.jpg",
+    "static/media/Full_Stack_Certificate.jpg": "/Profile/static/media/Full_Stack_Certificate.4dc50d6dc439704d500a.jpg",
+    "static/media/About_me_picture.png": "/Profile/static/media/About_me_picture.c16476a8dd2b687b7bf1.png",
+    "static/media/University_Certificate.jpeg": "/Profile/static/media/University_Certificate.30a110b20059c0d1c283.jpeg",
+    "static/media/Saif_Abu_Matar_CV.pdf": "/Profile/static/media/Saif_Abu_Matar_CV.28fefe96525aa94f1994.pdf",
+    "static/media/instagramIcon.svg": "/Profile/static/media/instagramIcon.2baab948ab41d01abea76490dfc5d847.svg",
+    "static/media/linkedinIcon.svg": "/Profile/static/media/linkedinIcon.2624033cbf29db4af2c132efc9bfb8a4.svg",
+    "static/media/githubIcon.svg": "/Profile/static/media/githubIcon.f2d227a415db0c5f21907eba4aa0c61d.svg",
+    "static/media/claenderIcon.svg": "/Profile/static/media/claenderIcon.1edd891d7d9eaf0e413d07f652ed4f77.svg",
+    "static/media/emailIcon (2).svg": "/Profile/static/media/emailIcon (2).96dda74532a70ce9873d2f6a1807187f.svg",
+    "index.html": "/Profile/index.html",
+    "main.4ac8e37d.css.map": "/Profile/static/css/main.4ac8e37d.css.map",
+    "main.27cf716b.js.map": "/Profile/static/js/main.27cf716b.js.map",
+    "453.32d81922.chunk.js.map": "/Profile/static/js/453.32d81922.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ac8e37d.css",
+    "static/js/main.27cf716b.js"
+  ]
+}
