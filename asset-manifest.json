@@ -1,25 +1,40 @@
 {
   "files": {
-    "main.css": "/Profile/static/css/main.4ac8e37d.css",
-    "main.js": "/Profile/static/js/main.27cf716b.js",
+    "main.css": "/Profile/static/css/main.dca608ed.css",
+    "main.js": "/Profile/static/js/main.6a944c9c.js",
     "static/js/453.32d81922.chunk.js": "/Profile/static/js/453.32d81922.chunk.js",
     "static/media/Training_Certificate.jpg": "/Profile/static/media/Training_Certificate.d4234158af8692b798be.jpg",
     "static/media/Full_Stack_Certificate.jpg": "/Profile/static/media/Full_Stack_Certificate.4dc50d6dc439704d500a.jpg",
     "static/media/About_me_picture.png": "/Profile/static/media/About_me_picture.c16476a8dd2b687b7bf1.png",
     "static/media/University_Certificate.jpeg": "/Profile/static/media/University_Certificate.30a110b20059c0d1c283.jpeg",
     "static/media/Saif_Abu_Matar_CV.pdf": "/Profile/static/media/Saif_Abu_Matar_CV.28fefe96525aa94f1994.pdf",
+    "static/media/ReactIcon.svg": "/Profile/static/media/ReactIcon.684178ddb8c95bdaeace60c37a8a00b0.svg",
+    "static/media/AdabtabilityIcon.svg": "/Profile/static/media/AdabtabilityIcon.bfeab33947a75634e1f9a284fa2f0625.svg",
+    "static/media/ComminicationIcon.svg": "/Profile/static/media/ComminicationIcon.7d9d16d7a67f5138326a2bf44b8b4b94.svg",
+    "static/media/ProblemSolvingIcon.svg": "/Profile/static/media/ProblemSolvingIcon.bafbdc4888906447b2644c77e911b0ea.svg",
+    "static/media/NodeJsIcon.svg": "/Profile/static/media/NodeJsIcon.d8c55492268e8afb7c1f2b1cfcea01ea.svg",
+    "static/media/MongoDBIcon.svg": "/Profile/static/media/MongoDBIcon.cb336797dae0ebeeb05e0b2520588ee9.svg",
+    "static/media/PlanningIcon.svg": "/Profile/static/media/PlanningIcon.d9b907788a5d4c5f8d721053eab4f085.svg",
+    "static/media/CSSIcon.svg": "/Profile/static/media/CSSIcon.663858eb313f6521040e73ee20be7300.svg",
+    "static/media/FigmaIcon.svg": "/Profile/static/media/FigmaIcon.632ac95a459440c2dcb34b0269fe2209.svg",
+    "static/media/HTMLIcon.svg": "/Profile/static/media/HTMLIcon.86212ef61763f18a97c3f62b20d47e1c.svg",
+    "static/media/TeamCollaborationIcon.svg": "/Profile/static/media/TeamCollaborationIcon.4c249e4e86d79788d25de03a1ca6728a.svg",
+    "static/media/LeaderShipIcon.svg": "/Profile/static/media/LeaderShipIcon.1cc6464661cea40af2bbf58935480134.svg",
     "static/media/instagramIcon.svg": "/Profile/static/media/instagramIcon.2baab948ab41d01abea76490dfc5d847.svg",
+    "static/media/GitIcon.svg": "/Profile/static/media/GitIcon.9b37ea47320f734b96aea6eb7e0285f2.svg",
+    "static/media/JavascriptIcon.svg": "/Profile/static/media/JavascriptIcon.b7ce7b58f287a0039a12acd6c8f111d1.svg",
     "static/media/linkedinIcon.svg": "/Profile/static/media/linkedinIcon.2624033cbf29db4af2c132efc9bfb8a4.svg",
     "static/media/githubIcon.svg": "/Profile/static/media/githubIcon.f2d227a415db0c5f21907eba4aa0c61d.svg",
+    "static/media/TrelloIcon.svg": "/Profile/static/media/TrelloIcon.aea3a92d80585f5a609cd442f33a74a2.svg",
     "static/media/claenderIcon.svg": "/Profile/static/media/claenderIcon.1edd891d7d9eaf0e413d07f652ed4f77.svg",
     "static/media/emailIcon (2).svg": "/Profile/static/media/emailIcon (2).96dda74532a70ce9873d2f6a1807187f.svg",
     "index.html": "/Profile/index.html",
-    "main.4ac8e37d.css.map": "/Profile/static/css/main.4ac8e37d.css.map",
-    "main.27cf716b.js.map": "/Profile/static/js/main.27cf716b.js.map",
+    "main.dca608ed.css.map": "/Profile/static/css/main.dca608ed.css.map",
+    "main.6a944c9c.js.map": "/Profile/static/js/main.6a944c9c.js.map",
     "453.32d81922.chunk.js.map": "/Profile/static/js/453.32d81922.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ac8e37d.css",
-    "static/js/main.27cf716b.js"
+    "static/css/main.dca608ed.css",
+    "static/js/main.6a944c9c.js"
   ]
 }
