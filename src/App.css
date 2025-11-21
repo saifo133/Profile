@@ -314,6 +314,7 @@ p{
 .Education{
   display: flex;
   flex-direction: column;
+  margin-bottom: 70px;
 }
 
 .education-intro {
@@ -359,8 +360,104 @@ p{
   background-size: contain;
 }
 
+.Skills{
+  display: flex;
+  flex-direction: column;
+  margin:120px
+}
 
+.skills-intro{
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.line{
+  width: 600px;
+  height: 5px;
+  background-color: #FF0BEF;
+}
+
+.frontend-skills,
+.toolse,
+.soft-skills-part1,
+.soft-skills-part2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.backend-skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 105px;
+  margin-bottom: 70px;
+}
+
+.skill-card{
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skill-card img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.skill-title{
+  width: 100%;
+  background-color: #FFF;
+  font-size: 15px;
+}
+
+.soft-skills-intro{
+  margin-left: 10px;
+  margin-bottom: 70px;
+}
+
+.soft-skill-card{
+  width: 300px;
+}
+
+.soft-skill-card img{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.paragraph{
+  width: 300px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.soft-skill-card:hover p{
+  color: #FF0BEF;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
+.soft-skill-card:hover img{
+  transform: translateY(-10px);
+  border-bottom: 8px solid #FF0BEF;
+  transition: ease 0.5s;
+  cursor: pointer;
+}
 /* @media (max-width: 992px) {
 
 

@@ -7,10 +7,25 @@ import LinkedinIcon from "./Media/linkedinIcon.svg";
 import MyCV from "./Media/Saif_Abu_Matar_CV.pdf";
 import LineLevel from "./Media/line_level.png";
 import CalenderIcon from "./Media/claenderIcon.svg";
-import SoftwareEngineering from './Media/University_Certificate.jpeg';
-import TraningCertificate from './Media/Training_Certificate.jpg';
-import FullStackCertificate from './Media/Full_Stack_Certificate.jpg';
+import SoftwareEngineering from "./Media/University_Certificate.jpeg";
+import TraningCertificate from "./Media/Training_Certificate.jpg";
+import FullStackCertificate from "./Media/Full_Stack_Certificate.jpg";
 import { useState } from "react";
+import HTMLIcon from "./Media/HTMLIcon.svg";
+import CSSIcon from "./Media/CSSIcon.svg";
+import JavascriptIcon from "./Media/JavascriptIcon.svg";
+import ReactIcon from "./Media/ReactIcon.svg";
+import NodeJsIcon from "./Media/NodeJsIcon.svg";
+import MongoDBIcon from "./Media/MongoDBIcon.svg";
+import GitIcon from "./Media/GitIcon.svg";
+import FigmaIcon from "./Media/FigmaIcon.svg";
+import TrelloIcon from "./Media/TrelloIcon.svg";
+import LeadershipIcon from './Media/LeaderShipIcon.svg';
+import ComminicationIcon from './Media/ComminicationIcon.svg';
+import PlanningIcon from './Media/PlanningIcon.svg';
+import ProblemSolvingIcon from './Media/ProblemSolvingIcon.svg';
+import TeamCollaborationIcon from './Media/TeamCollaborationIcon.svg';
+import AdaptabilityIcon from './Media/AdabtabilityIcon.svg';
 function App() {
   const Exp_information = [
     {
@@ -77,37 +92,115 @@ function App() {
   ];
 
   const Foodify_feature = [
-    {id:1 , feature: 'Built a responsive recipe web app using React and modern front-end development principles.' },
-    {id:2 , feature: 'Utilized React Hooks (useState, useEffect) for efficient state management and API data handling.' },
-    {id:3 , feature: 'Implemented dynamic routing and modular components to improve scalability and maintainability.' },
-    {id:4 , feature: 'Designed a clean and user-friendly UI/UX with smooth transitions and responsive layouts.' },
-    {id:5 , feature: 'Integrated LocalStorage to store user preferences and enhance user experience.' },
-    {id:6 , feature: 'feaIntegrated LocalStorage to store user preferences and enhance user experience.ture1' },
-    {id:7 , feature: 'Applied version control using Git and GitHub throughout the development process.' },
-    {id:8 , feature: 'Followed best practices in code optimization, reusability, and component structure.' },
+    {
+      id: 1,
+      feature:
+        "Built a responsive recipe web app using React and modern front-end development principles.",
+    },
+    {
+      id: 2,
+      feature:
+        "Utilized React Hooks (useState, useEffect) for efficient state management and API data handling.",
+    },
+    {
+      id: 3,
+      feature:
+        "Implemented dynamic routing and modular components to improve scalability and maintainability.",
+    },
+    {
+      id: 4,
+      feature:
+        "Designed a clean and user-friendly UI/UX with smooth transitions and responsive layouts.",
+    },
+    {
+      id: 5,
+      feature:
+        "Integrated LocalStorage to store user preferences and enhance user experience.",
+    },
+    {
+      id: 6,
+      feature:
+        "feaIntegrated LocalStorage to store user preferences and enhance user experience.ture1",
+    },
+    {
+      id: 7,
+      feature:
+        "Applied version control using Git and GitHub throughout the development process.",
+    },
+    {
+      id: 8,
+      feature:
+        "Followed best practices in code optimization, reusability, and component structure.",
+    },
   ];
 
   const certificate = [
-    {id:1 , title: 'Full Stack Developer', place: 'Al-Hussein Technical University', history:'22/4/2025', certificate: FullStackCertificate},
-    {id:2 , title: 'Training Certificate', place: 'KabsetZr', history:'16/6/2025 - 16/9/2025', certificate: TraningCertificate},
-    {id:3 , title: 'Software Engineering', place: ' Al Hussein Bin Talal University', history:'2/2021 - 9/2024', certificate: SoftwareEngineering},
+    {
+      id: 1,
+      title: "Full Stack Developer",
+      place: "Al-Hussein Technical University",
+      history: "22/4/2025",
+      certificate: FullStackCertificate,
+    },
+    {
+      id: 2,
+      title: "Training Certificate",
+      place: "KabsetZr",
+      history: "16/6/2025 - 16/9/2025",
+      certificate: TraningCertificate,
+    },
+    {
+      id: 3,
+      title: "Software Engineering",
+      place: " Al Hussein Bin Talal University",
+      history: "2/2021 - 9/2024",
+      certificate: SoftwareEngineering,
+    },
   ];
 
-  const[newCertificate , setNewCertificate] = useState(FullStackCertificate);
+  const [newCertificate, setNewCertificate] = useState(FullStackCertificate);
   const [activeCertificate, setActiveCertificate] = useState(1);
 
-  function ChangeCerificate(id){
-    if(id === certificate[0].id){
+  function ChangeCerificate(id) {
+    if (id === certificate[0].id) {
       setNewCertificate(FullStackCertificate);
       setActiveCertificate(id);
-    }else if(id === certificate[1].id){
+    } else if (id === certificate[1].id) {
       setNewCertificate(TraningCertificate);
       setActiveCertificate(id);
-    }else{
+    } else {
       setNewCertificate(SoftwareEngineering);
       setActiveCertificate(id);
     }
   }
+
+  const FrontEndSkills = [
+    { id: 1, image: HTMLIcon, title: "HTML", color: "#E65100" },
+    { id: 2, image: CSSIcon, title: "CSS", color: "#0277BD" },
+    { id: 3, image: JavascriptIcon, title: "Javascript", color: "#FFD600" },
+    { id: 4, image: ReactIcon, title: "React", color: "#39C1D7" },
+  ];
+  const BackEndSkills = [
+    { id: 1, image: NodeJsIcon, title: "Node.js", color: "#21A366" },
+    { id: 2, image: MongoDBIcon, title: "MongoDB", color: "#689F38" },
+  ];
+  const toolse = [
+    { id: 1, image: GitIcon, title: "Git", color: "#F4511E" },
+    { id: 2, image: GitHubIcon, title: "GitHub", color: "#000000" },
+    { id: 3, image: FigmaIcon, title: "Figma", color: "#7C4DFF" },
+    { id: 4, image: TrelloIcon, title: "Trello", color: "#1E88E5" },
+  ];
+
+  const SoftSkillsPart1 = [
+    {id:1, image:LeadershipIcon, paragraph:'Able to guide teams effectively, motivate others, and ensure smooth collaboration to achieve goals.'},
+    {id:2, image:ComminicationIcon, paragraph:'Skilled in delivering clear ideas, actively listening, and maintaining smooth communication to support teamwork and problem-solving.'},
+    {id:3, image:PlanningIcon, paragraph:'Strong ability to organize tasks, set priorities, and create clear action plans to ensure efficient and timely project delivery.'},
+  ];
+  const SoftSkillsPart2 = [
+    {id:1, image:ProblemSolvingIcon, paragraph:'Able to guide teams effectively, motivate others, and ensure smooth collaboration to achieve goals.'},
+    {id:2, image:TeamCollaborationIcon, paragraph:'Skilled in delivering clear ideas, actively listening, and maintaining smooth communication to support teamwork and problem-solving.'},
+    {id:3, image:AdaptabilityIcon, paragraph:'Strong ability to organize tasks, set priorities, and create clear action plans to ensure efficient and timely project delivery.'},
+  ];
   return (
     <>
       <main>
@@ -128,7 +221,7 @@ function App() {
                 <a href="#Education">Education</a>
               </li>
               <li>
-                <a href="https">Skills</a>
+                <a href="#Skills">Skills</a>
               </li>
             </ul>
           </div>
@@ -230,28 +323,38 @@ function App() {
 
       <div id="Projects" className="projects">
         <div className="project-intro">
-          <h1><span>A collection of my featured projects.</span></h1>
-          <h2>Here you’ll find a selection of projects that highlight my ability to build clean, efficient, and user-focused applications. Each project demonstrates real-world problem-solving, modern development practices, and attention to detail in both functionality and design.</h2>
+          <h1>
+            <span>A collection of my featured projects.</span>
+          </h1>
+          <h2>
+            Here you’ll find a selection of projects that highlight my ability
+            to build clean, efficient, and user-focused applications. Each
+            project demonstrates real-world problem-solving, modern development
+            practices, and attention to detail in both functionality and design.
+          </h2>
           <h4>A collection of my featured projects.</h4>
         </div>
         <div className="project-container">
           <div className="project-image">
             <a href="https://saifo133.github.io/Foodify" target="post">
-            <div className="logo">
-              <h1>Foodify</h1>
-            </div>
+              <div className="logo">
+                <h1>Foodify</h1>
+              </div>
             </a>
           </div>
           <div className="project-info">
             <div className="project-title">
               <h3>About Project</h3>
               <div className="underline"></div>
-              <h1><span>Foodify</span> is a user-friendly recipe app that helps you discover and organize your favorite dishes quickly.</h1>
+              <h1>
+                <span>Foodify</span> is a user-friendly recipe app that helps
+                you discover and organize your favorite dishes quickly.
+              </h1>
             </div>
             <div className="project-feature">
               <ul>
                 {Foodify_feature.map((item) => {
-                  return <li key={item.id}>{item.feature}</li>
+                  return <li key={item.id}>{item.feature}</li>;
                 })}
               </ul>
             </div>
@@ -261,23 +364,117 @@ function App() {
 
       <div className="Education" id="Education">
         <div className="education-intro">
-          <h1>A summary of my<span> education and certifications</span>,<br/>showcasing my skills and qualifications.</h1>
-          <p>This section highlights my academic background and professional certifications, reflecting my dedication to continuous learning and development in the field of software engineering.</p>
+          <h1>
+            A summary of my<span> education and certifications</span>,<br />
+            showcasing my skills and qualifications.
+          </h1>
+          <p>
+            This section highlights my academic background and professional
+            certifications, reflecting my dedication to continuous learning and
+            development in the field of software engineering.
+          </p>
         </div>
         <div className="education-container">
           <div className="education-info">
             {certificate.map((item) => {
-              return (<div className="education-card" key={item.id} style={{backgroundColor: activeCertificate === item.id ? '#FF0BEF' : '#000'}}>
-              <h2>{item.title}</h2>
-              <h2>{item.place}</h2>
-              <h2>{item.history}</h2>
-              <button onClick={() => ChangeCerificate(item.id)}>Show Certificate</button>
-            </div>)
+              return (
+                <div
+                  className="education-card"
+                  key={item.id}
+                  style={{
+                    backgroundColor:
+                      activeCertificate === item.id ? "#FF0BEF" : "#000",
+                  }}
+                >
+                  <h2>{item.title}</h2>
+                  <h2>{item.place}</h2>
+                  <h2>{item.history}</h2>
+                  <button onClick={() => ChangeCerificate(item.id)}>
+                    Show Certificate
+                  </button>
+                </div>
+              );
             })}
           </div>
           <div className="education-image">
-            <div className="certificate" style={{backgroundImage : `url(${newCertificate})`}}></div>
+            <div
+              className="certificate"
+              style={{ backgroundImage: `url(${newCertificate})` }}
+            ></div>
           </div>
+        </div>
+      </div>
+
+      <div id="Skills" className="Skills">
+        <div className="skills-intro">
+          <h1>
+            A summary of my key technical skills and expertise in software
+            development
+            <br /> and web technologies.
+          </h1>
+          <div className="line"></div>
+        </div>
+        <div className="frontend-skills">
+          {FrontEndSkills.map((item) => {
+            return (
+              <div className="skill-card" key={item.id}>
+                <img src={item.image} alt="#" />
+                <div className="skill-title">
+                  <h3 style={{ color: `${item.color}` }}>{item.title}</h3>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div className="backend-skills">
+          {BackEndSkills.map((item) => {
+            return (
+              <div className="skill-card" key={item.id}>
+                <img src={item.image} alt="#" />
+                <div className="skill-title">
+                  <h3 style={{ color: `${item.color}` }}>{item.title}</h3>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div className="toolse">
+          {toolse.map((item) => {
+            return (
+              <div className="skill-card" key={item.id}>
+                <img src={item.image} alt="#" />
+                <div className="skill-title">
+                  <h3 style={{ color: `${item.color}` }}>{item.title}</h3>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="soft-skills">
+        <div className="soft-skills-intro">
+          <h1>
+            <span>Key personal skills</span> that support effective
+            <br /> collaboration and problem-solving.
+          </h1>
+          <div className="line"></div>
+        </div>
+        <div className="soft-skills-part1">
+          {SoftSkillsPart1.map((item) => {
+            return (<div className="soft-skill-card" key={item.id}>
+              <img src={item.image} alt="#" />
+              <p className="paragraph">{item.paragraph}</p>
+            </div>)
+          })}
+        </div>
+        <div className="soft-skills-part2">
+          {SoftSkillsPart2.map((item) => {
+            return (<div className="soft-skill-card" key={item.id}>
+              <img src={item.image} alt="#" />
+              <p className="paragraph">{item.paragraph}</p>
+            </div>)
+          })}
         </div>
       </div>
     </>
